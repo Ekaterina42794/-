@@ -27,7 +27,6 @@ Mutable list: [1, 2, 'a', 'b', 'Modified']
 
 Напишите код к домашнему заданию в ответе (комментарии).'''
 
-
 immutable_var=[1,2,3],"ok",100
 print(immutable_var,type(immutable_var))
 print("[1,2,3] -",type(immutable_var[0]))
@@ -46,5 +45,6 @@ mutable_list.extend("абвгд")
 print(mutable_list)
 mutable_list[1]="ok"
 print(mutable_list)
+
 
 
