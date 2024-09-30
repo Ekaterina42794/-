@@ -26,3 +26,25 @@ Immutable tuple: (1, 2, 'a', 'b')
 Mutable list: [1, 2, 'a', 'b', 'Modified']
 
 Напишите код к домашнему заданию в ответе (комментарии).'''
+
+
+immutable_var=[1,2,3],"ok",100
+print(immutable_var,type(immutable_var))
+print("[1,2,3] -",type(immutable_var[0]))
+print(" ok   - ",type(immutable_var[1]))
+print(" 100  - ",type(immutable_var[2]))
+immutable_var[0][0]=55 # можно изменить элементы писка в кортеже
+immutable_var[0][1]=55
+immutable_var[0][2]=55
+'''immutable_var[1]=55 #нельзя изменить элементы внне списков'''
+print(immutable_var)
+mutable_list=[1,2,3,4,5]
+print(mutable_list,type(mutable_list))
+mutable_list.remove(3) # удаление элемента списка
+print(mutable_list)
+mutable_list.extend("абвгд")
+print(mutable_list)
+mutable_list[1]="ok"
+print(mutable_list)
+
+
