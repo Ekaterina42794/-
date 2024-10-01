@@ -68,10 +68,8 @@ a='123.456'
 print("123.456", type(a))
 print("5ый символ в строке",a[4])
 print("или")
-a="123.456"
-print("a",type(a))
-a=123.456
-print("a",type(a))
-print("123.456*10=",a*10)
-a=int(a*10)
-print(a, type(a))
+a=float(a)
+print(a,type(a))
+'''print("123.456*10=",a*10)'''
+a=int(((a%1)*10)//1)
+print("int(((a%1)*10)//1)", a, type(a)) #первый символ после запятой 123.456
