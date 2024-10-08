@@ -32,7 +32,7 @@ Modified dictionary: {'Vasya': 1975, 'Kamila': 1981, 'Artem': 1915, 'Masha': 200
 Set: {1, 'Яблоко', 42.314}
 Modified set: {'Яблоко', 42.314, 13, (5, 6, 1.6)}'''
 
-
+print("работа с словарями")
 my_dict={'Sonja':1983,'Oleg':1991,'Anna':2000,'Ilja':2002,'Lev':2007}
 print(my_dict)
 print(my_dict ['Sonja'])
@@ -44,3 +44,4 @@ print(my_dict)
 a=my_dict.pop ('Kolja')
 print(a)
 print(my_dict)
+print("работа с множествами")
