@@ -50,4 +50,5 @@ my_set={0,1,2,1,3,1,4,1,'ok',True,'ok',(10,20,30,10)}
 print(my_set)
 list=[11,11,12,12]
 print(set(list))
-print(my_set.add (12)) ошибка
+print(my_set)
+print(my_set.add (12))  # ошибка
