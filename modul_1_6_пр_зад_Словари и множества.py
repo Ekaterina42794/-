@@ -32,7 +32,7 @@ Modified dictionary: {'Vasya': 1975, 'Kamila': 1981, 'Artem': 1915, 'Masha': 200
 Set: {1, 'Яблоко', 42.314}
 Modified set: {'Яблоко', 42.314, 13, (5, 6, 1.6)}'''
 
-print("работа с словарями")
+print("работа с словарями_____")
 my_dict={'Sonja':1983,'Oleg':1991,'Anna':2000,'Ilja':2002,'Lev':2007}
 print(my_dict)
 print(my_dict ['Sonja'])
@@ -45,10 +45,12 @@ a=my_dict.pop ('Kolja')
 print(a)
 print(my_dict)
 
-print("работа с множествами")
-my_set={0,1,2,1,3,1,4,1,'ok',True,'ok',(10,20,30,10)}
+print("работа с множествами______")
+my_set={0,1,3,8,2,5,1,'ok','ok',111,77,(10,10,20,30)}
 print(my_set)
-list=[11,11,12,12]
-print(set(list))
+print(my_set.add ((5,5,5,5,5)), my_set.add ('AAA'))
 print(my_set)
-print(my_set.add (12))  # ошибка
+'''print(my_set.discard(7))
+print(my_set)'''
+print(my_set.discard((5,5,5,5,5)))
+print(my_set)
