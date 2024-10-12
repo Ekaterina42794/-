@@ -50,7 +50,5 @@ my_set={0,1,3,8,2,5,1,'ok','ok',111,77,(10,10,20,30)}
 print(my_set)
 print(my_set.add ((5,5,5,5,5)), my_set.add ('AAA'))
 print(my_set)
-'''print(my_set.discard(7))
-print(my_set)'''
 print(my_set.discard((5,5,5,5,5)))
 print(my_set)
