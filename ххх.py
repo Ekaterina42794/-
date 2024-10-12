@@ -28,7 +28,6 @@ students=list(students)
 print(type(students),(students))
 students=sorted(students)
 print(type(students),(students))
-'''my_dict=['1':1]
-    my_dict.update({'grades(1)':'students(1)','grades(2)':'students(2)'}))# ОШИБКА
-print(my_dict)
-'''
+#my_dict=['1':1]
+#    my_dict.update({'grades(1)':'students(1)','grades(2)':'students(2)'}))# ОШИБКА
+#print(my_dict)
